@@ -1,6 +1,5 @@
 package com.example.ride_sharing_kafka.notificationService;
 
-
 import com.example.ride_sharing_kafka.common.RideEvent;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
@@ -8,7 +7,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class NotificationConsumer {
 
-    @KafkaListener(topics = "ride-events", groupId = "notification-service-group")
+    @KafkaListener(
+            topics = "ride-events",
+            groupId = "notification-service-group",
+            containerFactory = "kafkaListenerContainerFactory"
+    )
     public void listen(RideEvent event) {
         switch (event.getEventType()) {
             case "DRIVER_ASSIGNED":

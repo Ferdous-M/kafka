@@ -10,3 +10,4 @@ spring:
       group-id: ride-service-group
       properties:
         spring.json.trusted.packages: "*"
+        spring.json.value.default.type: com.example.ride_sharing_kafka.common.RideEvent

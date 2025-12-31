@@ -15,14 +15,24 @@ public class DriverConsumer {
     private final KafkaTemplate<String, RideEvent> kafkaTemplate;
     private static final String TOPIC = "ride-events";
 
-    @KafkaListener(topics = TOPIC, groupId = "driver-service-group")
+    @KafkaListener(
+            topics = TOPIC,
+            groupId = "driver-service-group",
+            containerFactory = "kafkaListenerContainerFactory"
+    )
     public void listen(RideEvent event) {
         if ("RIDE_REQUESTED".equals(event.getEventType())) {
             System.out.println("DriverService: Ride requested: " + event.getRideId());
 
             // Simulate driver assignment
             String driverId = "driver-" + event.getRideId();
-            RideEvent assigned = new RideEvent("DRIVER_ASSIGNED", event.getRideId(), event.getRiderId(), driverId, Instant.now().toEpochMilli());
+            RideEvent assigned = new RideEvent(
+                    "DRIVER_ASSIGNED",
+                    event.getRideId(),
+                    event.getRiderId(),
+                    driverId,
+                    Instant.now().toEpochMilli()
+            );
             kafkaTemplate.send(TOPIC, event.getRideId(), assigned);
 
             System.out.println("DriverService: Driver assigned: " + driverId + " for ride: " + event.getRideId());

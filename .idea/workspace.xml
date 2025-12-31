@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef281e13-8237-46a4-8843-ee9e521a87e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/billingService/BillingConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/common/RideEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/driverService/DriverConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/notificationService/NotificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/ratingService/RatingConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/rideService/RideController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/rideService/RideProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/billingService/BillingConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/billingService/BillingConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/driverService/DriverConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/driverService/DriverConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/notificationService/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/notificationService/NotificationConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/ratingService/RatingConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/ratingService/RatingConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/rideService/RideController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/rideService/RideController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.RideSharingKafkaApplication.executor": "Run",
+    "Application.RideSharingKafkaApplication.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
