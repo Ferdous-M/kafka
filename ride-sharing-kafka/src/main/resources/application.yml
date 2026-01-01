@@ -11,3 +11,5 @@ spring:
       properties:
         spring.json.trusted.packages: "*"
         spring.json.value.default.type: com.example.ride_sharing_kafka.common.RideEvent
+  server:
+    port: 8081

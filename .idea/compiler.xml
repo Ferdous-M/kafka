@@ -10,12 +10,14 @@
         <module name="producer" />
         <module name="consumer" />
         <module name="ride-sharing-kafka" />
+        <module name="notification-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
       <module name="producer" options="-parameters" />
       <module name="ride-sharing-kafka" options="-parameters" />
     </option>

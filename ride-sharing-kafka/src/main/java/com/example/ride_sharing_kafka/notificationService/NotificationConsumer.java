@@ -13,6 +13,7 @@ public class NotificationConsumer {
             containerFactory = "kafkaListenerContainerFactory"
     )
     public void listen(RideEvent event) {
+        // Handle only the events NotificationService cares about
         switch (event.getEventType()) {
             case "DRIVER_ASSIGNED":
                 System.out.println("Notify Rider: Driver " + event.getDriverId() + " assigned for ride " + event.getRideId());
@@ -22,6 +23,9 @@ public class NotificationConsumer {
                 break;
             case "TRIP_ENDED":
                 System.out.println("Notify Rider: Trip ended for ride " + event.getRideId());
+                break;
+            default:
+                // Ignore other events
                 break;
         }
     }

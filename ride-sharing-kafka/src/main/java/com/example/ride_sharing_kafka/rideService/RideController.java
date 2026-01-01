@@ -16,8 +16,26 @@ public class RideController {
 
     private final RideProducer producer;
 
-    @PostMapping("/request")
-    public String requestRide(@RequestParam String rideId, @RequestParam String riderId) {
+   // private final RideProducer rideProducer;
+
+
+    // Rider requests a ride
+//    @PostMapping("/request")
+//    public String requestRide(@RequestParam String rideId, @RequestParam String riderId) {
+//        rideId = rideId.trim();
+//        riderId = riderId.trim();
+//
+//        // Publish ride requested event
+//        producer.publishRideRequested(rideId, riderId);
+//
+//        // Simulate assigning driver immediately
+//        producer.publishDriverAssigned(rideId, riderId, "driver-" + rideId);
+//
+//        return "Ride requested: " + rideId;
+//    }
+
+    @PostMapping("/request-old")
+    public String requestRideOld(@RequestParam String rideId, @RequestParam String riderId) {
         // Trim inputs to remove extra spaces/newlines
         rideId = rideId.trim();
         riderId = riderId.trim();

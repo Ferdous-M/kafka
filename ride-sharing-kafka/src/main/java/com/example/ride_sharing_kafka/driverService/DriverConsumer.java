@@ -21,6 +21,7 @@ public class DriverConsumer {
             containerFactory = "kafkaListenerContainerFactory"
     )
     public void listen(RideEvent event) {
+        // Only handle ride requests
         if ("RIDE_REQUESTED".equals(event.getEventType())) {
             System.out.println("DriverService: Ride requested: " + event.getRideId());
 
@@ -33,6 +34,8 @@ public class DriverConsumer {
                     driverId,
                     Instant.now().toEpochMilli()
             );
+
+            // Send DRIVER_ASSIGNED event back to Kafka
             kafkaTemplate.send(TOPIC, event.getRideId(), assigned);
 
             System.out.println("DriverService: Driver assigned: " + driverId + " for ride: " + event.getRideId());

@@ -17,4 +17,8 @@ public class RatingConsumer {
             System.out.println("Rating: Ride " + event.getRideId() + " rated by rider " + event.getRiderId());
         }
     }
+
+//    case "RIDE_REQUESTED":
+//            System.out.println("Notification: Rider " + event.getRiderId() + " requested a ride " + event.getRideId());
+//                break;
 }
