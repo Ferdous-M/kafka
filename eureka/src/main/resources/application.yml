@@ -1,23 +1,21 @@
-spring:
-  cloud:
-    gateway:
-      routes:
-        - id: ride-service
-          uri: http://localhost:8081
-          predicates:
-            - Path=/rides/**
-          filters:
-            - name: CircuitBreaker
-              args:
-                name: rideServiceCircuitBreaker
-                fallbackUri: forward:/rideServiceFallback
+server:
+  port: 8761  # Eureka default port
 
-        - id: notification-service
-          uri: http://localhost:8085
-          predicates:
-            - Path=/notifications/**
-          filters:
-            - name: CircuitBreaker
-              args:
-                name: notificationServiceCircuitBreaker
-                fallbackUri: forward:/notificationServiceFallback
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    register-with-eureka: false  # Eureka server does not register itself
+    fetch-registry: false         # Eureka server does not fetch other services
+
+  instance:
+    hostname: localhost  # optional, hostname of server
+
+# Optional: make the dashboard prettier
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  # allows access to all actuator endpoints
