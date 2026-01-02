@@ -78,3 +78,10 @@ public class RideController {
                 rideId,
                 riderId,
                 null,
+                Instant.now().toEpochMilli()
+        );
+        producer.publishEvent(event);
+        System.out.println("Published event: RIDE_RATED for ride: " + rideId);
+        return "Ride rated: " + rideId;
+    }
+}

@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c74dd6b-37f5-4486-828b-57f9ad95cc2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/citypass/NotificationService/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/citypass/NotificationService/NotificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/citypass/NotificationService/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/citypass/NotificationService/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/citypass/NotificationService/RideDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/citypass/NotificationService/RideEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/citypass/NotificationService/RideServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b1d637e0-b9e2-4711-be5d-1c1468ca71a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/KafkaConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/RideSharingKafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/RideSharingKafkaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/driverService/DriverConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/driverService/DriverConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/notificationService/NotificationConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/notificationService/NotificationConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/ratingService/RatingConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/ratingService/RatingConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/rideService/RideController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/rideService/RideController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/rideService/RideProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/java/com/example/ride_sharing_kafka/rideService/RideProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ride-sharing-kafka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ride-sharing-kafka/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,47 +19,28 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="37eoBvzg2YZ8DcXfwNAoten5UtU" />
+  <component name="ProjectId" id="37fE92EohU9tPr5zEpxGNXsAAVv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.NotificationServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RideSharingKafkaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.notification-service [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.notification-service [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ride-sharing-kafka [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ride-sharing-kafka [install].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EurekaApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.NotificationServiceApplication">
-    <configuration name="NotificationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.citypass.NotificationService.NotificationServiceApplication" />
-      <module name="notification-service" />
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eureka.EurekaApplication" />
+      <module name="eureka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.citypass.NotificationService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RideSharingKafkaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ride_sharing_kafka.RideSharingKafkaApplication" />
-      <module name="ride-sharing-kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ride_sharing_kafka.*" />
+          <option name="PATTERN" value="com.example.eureka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +50,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NotificationServiceApplication" />
-        <item itemvalue="Application.RideSharingKafkaApplication" />
+        <item itemvalue="Application.EurekaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -102,11 +63,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c74dd6b-37f5-4486-828b-57f9ad95cc2f" name="Changes" comment="" />
-      <created>1767272767469</created>
+      <changelist id="b1d637e0-b9e2-4711-be5d-1c1468ca71a0" name="Changes" comment="" />
+      <created>1767285571952</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1767272767469</updated>
+      <updated>1767285571952</updated>
     </task>
     <servers />
   </component>
